@@ -1,0 +1,132 @@
+:root {
+  --color-primary-white: #ffffff;
+  --color-primary-lightblue: #2b7fff;
+  --color-primary-darkblue: #011c44;
+  --color-font-black: #000;
+  --color-secondary-darksilver: #4a4a4a;
+  --color-secondary-lightsilver: #747272;
+  --color-secondary-darkblue: #011f4a;
+  --color-secondary-yellow: #ffd02b;
+}
+
+/* Base */
+ul {
+  list-style-type: none;
+}
+
+body {
+  color: var(--color-primary-darkblue);
+}
+
+/* Buttons */
+.button {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-lightblue);
+  border: 2px solid var(--color-primary-lightblue);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-lightblue);
+  background-color: transparent;
+}
+
+/* Links */
+.link {
+  color: var(--color-primary-darkblue);
+}
+
+.link:hover {
+  color: var(--color-primary-lightblue);
+}
+
+/* Hero-section */
+.hero-title {
+  color: var(--color-primary-lightblue);
+}
+
+.secondary-text {
+  color: var(--color-secondary-darksilver);
+}
+
+/* General title sections */
+.section-title {
+  color: var(--color-primary-darkblue);
+}
+
+.section-title .accent {
+  color: var(--color-primary-lightblue);
+}
+
+/* About us section */
+.about-us {
+  color: var(--color-primary-darkblue);
+}
+
+/* .about-us .accent {
+  Text will be BOLD
+} */
+
+/* Why we section */
+.why-list {
+  color: var(--color-font-black);
+}
+
+/* Ours procedures section */
+.procedure-names {
+  color: var(--color-primary-white);
+}
+
+/* Contacts section */
+.order-call {
+  color: var(--color-primary-white);
+}
+
+.order-call .accent {
+  color: var(--color-primary-lightblue);
+}
+
+.input-data {
+  color: var(--color-primary-white);
+  border: 2px solid var(--color-secondary-lightsilver);
+  border-radius: 32px;
+}
+
+.input-data:focus {
+  color: var(--color-primary-white);
+  background-color: var(--color-secondary-lightsilver);
+  border: 2px solid var(--color-secondary-lightsilver);
+  border-radius: 32px;
+}
+
+.input-data::-webkit-input-placeholder {
+  /* Color placeholder for Safari and Chrome browser */
+  color: var(--color-primary-white);
+}
+
+.input-data::-moz-placeholder {
+  /* Color placeholder for Mozilla browser */
+  color: var(--color-primary-white);
+}
+
+.text-agree {
+  color: var(--color-secondary-lightsilver);
+}
+
+.text-agree > a {
+  color: var(--color-secondary-lightsilver);
+}
+
+/* Footer section */
+.footer-link {
+  color: var(--color-primary-white);
+}
+
+.coordinates {
+  color: var(--color-primary-white);
+}
+
+.politica {
+  color: var(--color-primary-white);
+}
